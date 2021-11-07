@@ -1,11 +1,13 @@
 # colorpicker
-A small tool for X11 that writes the color value on your screen at the cursor position to stdout, in RGB.
+A small tool for X11 that prints the color value of a specific pixel in RGB.
 
 ### Usage
-Left click to print the pixel color, any other mouse click to quit the program.
+`colorpicker X Y`
 
 ### Dependencies
 XLib
 
 ### License
 MIT
+
+Based on https://github.com/ym1234/colorpicker, use that if you want mouse/rgb/hex/etc support.
