@@ -1,8 +1,8 @@
-# colorpicker
-A small tool for X11 that prints the color value of a specific pixel in RGB.
+# colourpicker
+A small tool for X11 that prints the colour value of a specific pixel in RGB.
 
 ### Usage
-`colorpicker X Y`
+`colourpicker X Y`
 
 ### Dependencies
 XLib

@@ -1,6 +1,6 @@
 PREFIX = /usr
 
-colorpicker: main.c
-	cc main.c -lX11 -o colorpicker
+colourpicker: colourpicker.c
+	cc colourpicker.c -lX11 -o colourpicker
 
-.PHONY: colorpicker
+.PHONY: colourpicker
