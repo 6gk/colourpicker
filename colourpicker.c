@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 
 	XImage *image = XGetImage(display, root, 0, 0, gwa.width, gwa.height, AllPlanes, ZPixmap);
 	unsigned long pixel = XGetPixel(image, x, y);
-	printf("%d %d %d\n", (pixel >> 0x10) & 0xFF, (pixel >> 0x08) & 0xFF, pixel & 0xFF);
+	printf("%lu %lu %lu\n", (pixel >> 0x10) & 0xFF, (pixel >> 0x08) & 0xFF, pixel & 0xFF);
 	XDestroyImage(image);
 	fflush(stdout);
 
