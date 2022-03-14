@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while :; do
+	set -- $(colourpicker 150 300)   # 16ms
+	[[ "$1" -ge 200 ]] || # 1ms
+		xdotool click 1 # 100ms, includes delay between down & up.  down/up are 2ms when done separately.
+done
